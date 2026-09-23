@@ -1,0 +1,14 @@
+{
+  "name": "B&B Premier Cleaning",
+  "short_name": "B&B Premier",
+  "description": "Reliable house, deep, recurring and commercial cleaning in Spring Hill, KS.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f5257",
+  "lang": "en-US",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
