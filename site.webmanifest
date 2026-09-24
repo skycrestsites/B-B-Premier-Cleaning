@@ -5,10 +5,11 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0f5257",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
   "lang": "en-US",
   "icons": [
-    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "assets/logo.jpg", "sizes": "1254x1254", "type": "image/jpeg", "purpose": "any" }
   ]
 }
