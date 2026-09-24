@@ -10,6 +10,6 @@
   "lang": "en-US",
   "icons": [
     { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
-    { "src": "assets/logo.jpg", "sizes": "1254x1254", "type": "image/jpeg", "purpose": "any" }
+    { "src": "assets/logo.png", "sizes": "1254x1254", "type": "image/png", "purpose": "any" }
   ]
 }
