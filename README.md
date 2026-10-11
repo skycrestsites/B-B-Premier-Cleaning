@@ -22,12 +22,16 @@ No `.html` ever appears in the address bar. Just deploy the whole folder and poi
 the domain at it.
 
 ## Before you go live
-The domain, email and booking link use B&B Premier Cleaning placeholders and should be
-confirmed before launch. Search the whole folder for `bbpremiercleaning` and update if
-the final domain differs:
+Booking is live: the BookingKoala embed (`https://bbpremiercleaning.bookingkoala.com/booknow?embed=true`)
+is confirmed. `embed.js` is intentionally NOT loaded on the parent page. The iframe uses a fixed
+viewport height (`100vh` / `100dvh` in `css/styles.css`) with `scrolling="yes"`, so the form
+scrolls inside the iframe and BookingKoala's modals appear in the visible viewport, exactly like
+opening the booknow URL in a browser tab. Do not add `embed.js` back.
+
+The domain and email are still placeholders and should be confirmed before launch. Search the
+whole folder for `bbpremiercleaning` and update if the final domain differs:
    - `https://bbpremiercleaning.com` (canonicals, Open Graph, JSON-LD, `sitemap.xml`, `robots.txt`)
    - `hello@bbpremiercleaning.com` (all pages + `js/main.js`)
-   - `bbpremiercleaning.bookingkoala.com` (the booking iframe + preconnect in `index.html`).
 1. Phone number: replace the placeholder `(913) 000-0000` in `index.html` and every
    `services/*/index.html` (contact section + footer, and the `tel:` links).
 2. Email: `hello@bbpremiercleaning.com` is set as the contact address. Create that
