@@ -1,6 +1,6 @@
 # B&B Premier Cleaning website
 
-A fast, mobile-first site (home page + 8 service pages) for B&B Premier Cleaning, serving Spring Hill, KS and surrounding areas.
+A fast, mobile-first site (home page + 8 service pages) for B&B Premier Cleaning, serving the Kansas City Metro (Kansas and Missouri sides).
 
 ## Files
 - `index.html` - all home page content and SEO metadata
@@ -32,8 +32,8 @@ The domain and email are still placeholders and should be confirmed before launc
 whole folder for `bbpremiercleaning` and update if the final domain differs:
    - `https://bbpremiercleaning.com` (canonicals, Open Graph, JSON-LD, `sitemap.xml`, `robots.txt`)
    - `hello@bbpremiercleaning.com` (all pages + `js/main.js`)
-1. Phone number: replace the placeholder `(913) 000-0000` in `index.html` and every
-   `services/*/index.html` (contact section + footer, and the `tel:` links).
+1. Phone number: `(913) 286-6181` is set in `index.html` and every `services/*/index.html`
+   (contact section + footer, `tel:` links, and JSON-LD `telephone`).
 2. Email: `hello@bbpremiercleaning.com` is set as the contact address. Create that
    inbox on the domain, or change it in `index.html`, the service pages and `js/main.js`.
 3. Quote form: it currently opens the visitor's email app pre-filled. To collect
@@ -43,7 +43,7 @@ whole folder for `bbpremiercleaning` and update if the final domain differs:
 5. Add the site to Google Business Profile and Google Search Console for local SEO.
 
 ## SEO included
-- Location-focused title, description, and keywords for Spring Hill, KS
+- Location-focused title, description, and keywords for the Kansas City Metro
 - Open Graph + Twitter cards
 - Geo meta tags and `HouseCleaningService` JSON-LD structured data (services,
   service areas, reviews, hours, geo)
