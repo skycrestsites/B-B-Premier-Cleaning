@@ -1,7 +1,7 @@
 {
   "name": "B&B Premier Cleaning",
   "short_name": "B&B Premier",
-  "description": "Reliable house, deep, recurring and commercial cleaning across the Kansas City Metro.",
+  "description": "Reliable house, deep, recurring and commercial cleaning across Kansas.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

@@ -1,6 +1,6 @@
 # B&B Premier Cleaning website
 
-A fast, mobile-first site (home page + 8 service pages) for B&B Premier Cleaning, serving the Kansas City Metro (Kansas and Missouri sides).
+A fast, mobile-first site (home page + 8 service pages) for B&B Premier Cleaning, serving Kansas.
 
 ## Files
 - `index.html` - all home page content and SEO metadata
@@ -43,7 +43,7 @@ whole folder for `bbpremiercleaning` and update if the final domain differs:
 5. Add the site to Google Business Profile and Google Search Console for local SEO.
 
 ## SEO included
-- Location-focused title, description, and keywords for the Kansas City Metro
+- Location-focused title, description, and keywords for Kansas
 - Open Graph + Twitter cards
 - Geo meta tags and `HouseCleaningService` JSON-LD structured data (services,
   service areas, reviews, hours, geo)
