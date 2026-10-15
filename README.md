@@ -28,13 +28,13 @@ viewport height (`100vh` / `100dvh` in `css/styles.css`) with `scrolling="yes"`,
 scrolls inside the iframe and BookingKoala's modals appear in the visible viewport, exactly like
 opening the booknow URL in a browser tab. Do not add `embed.js` back.
 
-The domain and email are still placeholders and should be confirmed before launch. Search the
+Contact details are set. Confirm the final domain before launch. Search the
 whole folder for `bbpremiercleaning` and update if the final domain differs:
    - `https://bbpremiercleaning.com` (canonicals, Open Graph, JSON-LD, `sitemap.xml`, `robots.txt`)
-   - `hello@bbpremiercleaning.com` (all pages + `js/main.js`)
+   - `Vkwiatko21@bbpremiercleaning.com` (all pages + `js/main.js`)
 1. Phone number: `(913) 286-6181` is set in `index.html` and every `services/*/index.html`
    (contact section + footer, `tel:` links, and JSON-LD `telephone`).
-2. Email: `hello@bbpremiercleaning.com` is set as the contact address. Create that
+2. Email: `Vkwiatko21@bbpremiercleaning.com` is set as the contact address. Create that
    inbox on the domain, or change it in `index.html`, the service pages and `js/main.js`.
 3. Quote form: it currently opens the visitor's email app pre-filled. To collect
    submissions automatically, create a free form at formspree.io and add

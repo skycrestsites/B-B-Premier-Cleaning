@@ -112,7 +112,7 @@
      service like Formspree and this handler will step aside. */
   var form = document.getElementById("quoteForm");
   var status = document.getElementById("formStatus");
-  var BUSINESS_EMAIL = "hello@bbpremiercleaning.com";
+  var BUSINESS_EMAIL = "Vkwiatko21@bbpremiercleaning.com";
 
   if (form) {
     form.addEventListener("submit", function (e) {
